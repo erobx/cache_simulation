@@ -37,7 +37,7 @@ def main():
     plt.plot(cache_size, saf8, label='8-Way Set Assocative FIFO')
     plt.plot(cache_size, sal8, label='8-Way Set Assocative LRU')
     plt.ylabel('Hit ratio')
-    plt.xlabel('Cache Size')
+    plt.xlabel('Cache Size (Bytes)')
     plt.legend(loc='lower right')
     plt.show()
 
